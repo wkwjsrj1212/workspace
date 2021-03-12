@@ -1,0 +1,34 @@
+h1{
+    color:white;
+    
+}
+#sentence{
+    color:white;
+    
+}
+div{
+    width: 320px;
+    height: 100px;
+    padding : 50px;
+    border : 50px;
+    margin : 50px;
+}
+
+.fstClass{
+    direction: rtl;
+}
+body{
+    background-image: url('back.png');
+    color:white;
+}
+
+
+.up, .down, .right, .left { background: url("img_image_sprites.png") no-repeat; }
+
+.up { width: 21px; height: 20px; background-position: 0 0; }
+
+.down { width: 21px; height: 20px; background-position: -21px 0; }
+
+.right { width: 22px; height: 20px; background-position: -42px 0; }
+
+.left { width: 22px; height: 20px; background-position: -65px 0; }
